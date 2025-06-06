@@ -1,7 +1,14 @@
 import React, { useEffect } from 'react';
 import './header.css';
 import gsap from 'gsap';
+import img1 from './assets/img1.jpg';
 // import { runHeaderAnimations } from './gsapAnimations';
+
+
+
+
+
+
 
 const Header = () => {
 
@@ -16,7 +23,7 @@ const Header = () => {
       tl.to(".topheading .revel", {
         opacity: 1,
         y: -30,
-        duration: 0.9,
+        duration: 0.7,
         stagger: 0.3,
         ease: "circ.inOut"
      })   
@@ -24,7 +31,7 @@ const Header = () => {
         x: '-100',
         stagger: 0.3,
         opacity: 1,
-        duration: 2,
+        duration: 1.5,
         ease:"circ.easeInOut"
          })
          .to(".spinner", {
@@ -131,7 +138,7 @@ const Header = () => {
 
     </div>
     <div className="green"></div>
-
+    {/* this is the Hero Section  */}
     <div className="home">
         <div class="nav">
             <a href="" class="sec1 s">Home
@@ -166,6 +173,44 @@ const Header = () => {
 
           </div>
     </div>
+
+    {/* this is ABout section  */}
+
+    <div className="about">
+     
+
+      <div className="data">
+        <div className="txt">
+          <h1>About <span className='color1'>Me</span></h1>
+          <h3></h3>
+        <p>
+        <span className='color2'>  Hey! I’m Vedant —</span> a passionate web designer who loves crafting visually <br /> appealing and  smooth user experiences. I believe a great website <br /> isn't just about how it looks, but how it feels.
+          <br />
+          <br />
+          My approach combines creativity with clean code. Whether it’s <br /> a landing page, a portfolio, or a full-blown UI design, I focus on simplicity,<br /> structure, and speed.
+          <br />
+          <br />
+        
+          Designing intuitive, user-friendly websites is more than just a skill for me — it’s <br />something I genuinely enjoy. Every project is a new canvas, and I put my best <br />into making it pixel-perfect and responsive across all screens.
+          <br />
+          <br />
+          I’m constantly learning, improving, and staying up-to-date <br /> with the latest design trends.<br />
+
+        </p>
+
+        </div>
+      </div>
+
+
+       
+      <div className="photo">
+      <img src={img1} alt="My image" />
+      </div>
+    </div>
+
+
+
+    
    </div>
   );
 };

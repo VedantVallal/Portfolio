@@ -6,14 +6,21 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 
+
 const App = () => {
+
+
+
   return (
+
+
     <div className="App">
       <Header />
-      {/* <About />
-      <Projects />
+       {/* <About /> */}
+
+      {/* <Projects />
       <Contact />
-      <Footer /> */}
+      <Footer />  */}
     </div>
   );
 };

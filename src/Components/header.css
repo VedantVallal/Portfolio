@@ -560,4 +560,128 @@ padding-left: 1.3vh;
   width: 100%;
   background-color: #000000;
   height: 100vh;
+  position: relative;
 }
+
+.skills img{
+  position: absolute;
+  left:20%;
+  height: 30vh;
+  top: 10%;
+ 
+ 
+}
+
+
+
+
+
+
+
+
+.skilldata h3{
+  position: absolute;
+  left: 47.1%;
+  color: rgb(186, 186, 186);
+  letter-spacing: 2px;
+  top: 31%;
+}
+.skilldata h1{
+  position: absolute;
+  left: 30%;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  top: 31%;
+  font-size: 10vh;
+  margin-top: 4vh;
+}
+.sau{
+    font-family: "Mazius"; 
+    /* font-size: 2.8vw; */
+  /* font-family: 'Courier New', Courier, monospace; */
+  color: #14CF93;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.techstack .html {
+  font-size: 33px;
+  margin: 10px;
+
+}
+
+
+
+ 
+ .tech{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 20%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+
+ .techstack h3{
+  font-size: 2vh;
+  letter-spacing: 0.3vh;
+ }
+
+  .tech1{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 30%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+
+
+ 
+  .tech2{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 40%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+
+

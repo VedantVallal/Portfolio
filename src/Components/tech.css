@@ -1,0 +1,48 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy";
+  box-sizing: border-box;
+    text-decoration: none;
+ 
+}
+
+
+html,body{
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; lenis change  */
+}
+
+
+.tech .html {
+  font-size: 33px;
+  margin: 10px;
+
+}
+
+
+
+ 
+ .tech{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 20%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+
+ .tech h3{
+  font-size: 2vh;
+  letter-spacing: 0.3vh;
+ }

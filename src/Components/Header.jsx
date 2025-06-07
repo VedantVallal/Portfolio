@@ -5,6 +5,20 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import img1 from './assets/img1.jpg';
 import skillback from './assets/back.jpeg';
 // import { runHeaderAnimations } from './gsapAnimations';
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
+
+// Import in your component file
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
+// icons
+import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
+import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
+import { faJs } from '@fortawesome/free-brands-svg-icons';
+
+
+
 
 
 
@@ -247,7 +261,40 @@ useEffect(() => {
 
     {/* THis is Skills Section  */}
     <div className="skills">
-       <img src={skillback} alt="My image" />
+
+       <img className='back' src={skillback} alt="My image" />
+
+       <div className="skilldata">
+        <h3>MY SKILLS</h3>
+        <h1>The Secret <span className='sau'> Sauce </span></h1>
+       </div>
+
+       <div className="techstack">
+
+       <div className="tech">
+         <FontAwesomeIcon icon={faHtml5} className="html" style={{ color: "#f8530d" }} />
+         <h3>HTML</h3>
+       </div>
+
+       <div className="tech1">
+        <FontAwesomeIcon icon={faCss3Alt} className="html" style={{ color: "#0088cc", fontSize: "40px" }} />
+        <h3>CSS</h3>
+        </div>
+
+        <div className="tech2">
+        <FontAwesomeIcon icon={faJs} className="html" style={{color: "#FFD43B",}} />
+        <h3>JS</h3>
+        </div>
+
+
+       
+       </div>
+
+       
+
+    
+
+
     </div>
 
    

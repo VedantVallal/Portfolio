@@ -1,20 +1,14 @@
-import React from 'react'
-// Import in your component file
+// TechIcon.jsx
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
-import './tech.css';
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-
-const Tech = () => {
+import './tech.css'
+function TechIcon({ icon, color, label, style = {} }) {
   return (
-    <div>
-        heloo
-         <div className="tech">
-               <FontAwesomeIcon icon={faHtml5} className="html" style={{ color: "#f8530d" }} />
-               <h3>HTML</h3>
-             </div>
+    <div className="tech" style={style}>
+      <FontAwesomeIcon icon={icon} className="html" style={{ color }} />
+      <h3>{label}</h3>
     </div>
-  )
+  );
 }
 
-export default Tech
+export default TechIcon;

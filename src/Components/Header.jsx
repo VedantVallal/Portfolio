@@ -2,25 +2,21 @@ import React, { useEffect } from "react";
 import "./header.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import img1 from "./assets/myimg.png";
 
+// images
+import img1 from "./assets/myimg.png";
 import gsph from "./assets/gsapback.jpg";
 import figmaph from "./assets/figma.png";
 import redux from "./assets/redux.png";
-
 import skillback from "./assets/steel.webp";
+import foot from "./assets/footer.jpg";
+// import curve from "./assets/curve.jpg";
+
 // import { runHeaderAnimations } from './gsapAnimations';
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import TechIcon from "./Tech";
-
-// Import in your component file
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// icons
-// import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
-// import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
-// import { faJs } from '@fortawesome/free-brands-svg-icons';
-// import { faReact } from '@fortawesome/free-brands-svg-icons';
 import {
   faHtml5,
   faCss3Alt,
@@ -33,12 +29,36 @@ import {
   faGithub,
   faLinkedin,
   faTwitter,
+  // faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 import { faDatabase } from "@fortawesome/free-solid-svg-icons"; // Use this as SQL icon
 
+// lenis
+import Lenis from "@studio-freight/lenis";
+
 const Header = () => {
   useEffect(() => {
+    const lenis = new Lenis({
+      duration: 1.4,
+      // smoother easing
+      smooth: true,
+      direction: "vertical",
+      gestureDirection: "vertical",
+      mouseMultiplier: 1,
+      wheelMultiplier: 1, // controls scroll speed on wheel
+      smoothTouch: true, // enable smooth touch scrolling
+      touchMultiplier: 2,
+      infinite: false,
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
     // Register ScrollTrigger plugin
     gsap.registerPlugin(ScrollTrigger);
 
@@ -238,7 +258,7 @@ const Header = () => {
       <div className="about">
         <div id="main">
           <div id="top">
-            <h1 id="top-h1">ABOUT</h1>
+            <h1 id="top-h1">PROFILE</h1>
           </div>
           <div id="center">
             <div class="content">
@@ -246,26 +266,24 @@ const Header = () => {
                 <div className="r">
                   <div className="data">
                     <div className="txt">
-
                       <h4>KNOW ABOUT ME</h4>
 
-
                       <h1>
-                        Web Designer and <br /> a little bit of <span className="text-colorfull animate-gradient-x"> everything</span> 
+                        Web Designer and <br /> a little bit of{" "}
+                        <span className="text-colorfull animate-gradient-x">
+                          {" "}
+                          everything
+                        </span>
                       </h1>
 
                       <p>
-                       
-                        <span className="">
-                        
-                          Hey! I’m Vedant —
-                        </span>
+                        <span className="">Hey! I’m Vedant —</span>
                         a passionate web designer who loves crafting visually
                         <br /> appealing and smooth user experiences. I believe
                         a great website isn't <br /> just about how it looks,
-                        but how it feels.
-                        My approach combines creativity <br /> with clean code. Whether
-                        it’s a landing page, a portfolio, or a full-blown <br />
+                        but how it feels. My approach combines creativity <br />{" "}
+                        with clean code. Whether it’s a landing page, a
+                        portfolio, or a full-blown <br />
                         UI design, I focus on simplicity,
                         <br /> structure, and speed.
                         <br />
@@ -282,20 +300,33 @@ const Header = () => {
                         up-to-date <br /> with the latest design trends.
                         <br />
                         <div className="abouticons">
+                          <a
+                            href="https://github.com/VedantVallal"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="ic1 "
+                          >
+                            <FontAwesomeIcon icon={faGithub} />
+                          </a>
 
-                        <FontAwesomeIcon icon={faGithub}  className="ic1"/>
-                        <FontAwesomeIcon icon={faLinkedin} className="ic"/>
-                        <FontAwesomeIcon icon={faTwitter} className="ic"/>
+                          <a
+                            href="https://www.linkedin.com/in/vedant-vallal-432274345/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="ic ic2"
+                          >
+                            <FontAwesomeIcon icon={faLinkedin} />
+                          </a>
+
+                          <a
+                            href="https://x.com/home"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="ic ic3"
+                          >
+                            <FontAwesomeIcon icon={faTwitter} />
+                          </a>
                         </div>
-
-
-
-
-
-
-
-
-
                       </p>
                     </div>
                     <div className="photo">
@@ -307,7 +338,7 @@ const Header = () => {
             </div>
           </div>
           <div id="bottom">
-            <h1 id="bottom-h1">ABOUT</h1>
+            <h1 id="bottom-h1">PROFILE</h1>
           </div>
         </div>
       </div>
@@ -426,23 +457,118 @@ const Header = () => {
       </div>
 
       <div class="scroll-wrapper">
-  <div class="scroll-track">
-    <div class="scroll-text">
-      accessible &nbsp; dynamic &nbsp; scalable &nbsp; engaging &nbsp; responsive &nbsp;
-      intuitive &nbsp; modern &nbsp; clean &nbsp; interactive &nbsp; lightweight &nbsp;
-      seo-friendly &nbsp; optimized &nbsp; functional &nbsp; modular &nbsp; aesthetic &nbsp;
-    </div>
+        <div class="scroll-track">
+          <div class="scroll-text">
+            accessible &nbsp; dynamic &nbsp; scalable &nbsp; engaging &nbsp;
+            responsive &nbsp; intuitive &nbsp; modern &nbsp; clean &nbsp;
+            interactive &nbsp; lightweight &nbsp; seo-friendly &nbsp; optimized
+            &nbsp; functional &nbsp; modular &nbsp; aesthetic &nbsp;
+          </div>
 
-    <div class="scroll-text">
-      accessible &nbsp; dynamic &nbsp; scalable &nbsp; engaging &nbsp; responsive &nbsp;
-      intuitive &nbsp; modern &nbsp; clean &nbsp; interactive &nbsp; lightweight &nbsp;
-      seo-friendly &nbsp; optimized &nbsp; functional &nbsp; modular &nbsp; aesthetic &nbsp;
-    </div>
-  </div>
+          <div class="scroll-text">
+            accessible &nbsp; dynamic &nbsp; scalable &nbsp; engaging &nbsp;
+            responsive &nbsp; intuitive &nbsp; modern &nbsp; clean &nbsp;
+            interactive &nbsp; lightweight &nbsp; seo-friendly &nbsp; optimized
+            &nbsp; functional &nbsp; modular &nbsp; aesthetic &nbsp;
+          </div>
+        </div>
       </div>
 
+      <div className="projects"></div>
 
-      <div className="contact"></div>
+      {/* contact section  */}
+      <div className="contact">
+        <div className="cdata">
+
+                   <h1>Design Meets Purpose — Work With Me </h1>
+                  
+
+        </div>
+      </div>
+
+      {/* footer section  */}
+
+      <footer className="footer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          ⮕
+        </svg>
+        <img className="footimg" src={foot} alt="" />
+
+        <div className="fdata">
+          <h1>
+            From Concept to <span className="">CREATION </span> <br /> Let's
+            Make It{" "}
+            <span className="text-colorfull animate-gradient-x sau">
+              Happen
+            </span>
+          </h1>
+
+          <div className="btn">
+            <button className="animated-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="arr-2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#010206"
+                  fill-opacity="1"
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span className="text">Get In Touch ⮕</span>
+              <span className="circle"></span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="arr-1"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#010206"
+                  fill-opacity="1"
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <div className="think">
+            <h3>
+              Built by a curious mind who loves clean code. <br />
+              Designing the web, one pixel at a time.
+            </h3>
+          </div>
+
+          <div className="footicons">
+            <a
+              href="https://github.com/VedantVallal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="fc1"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/vedant-vallal-432274345/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="fc2"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+
+            <a
+              href="https://x.com/home"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="fc3"
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

@@ -1224,11 +1224,193 @@ padding-left: 1.3vh;
 
 .contact{
   width: 100%;
-  background-color: #000000;
+  background-color: #777070;
   height: 100vh;
   position: relative;
 
 }
+
+.cdata{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  color: white;
+}
+.cdata h1{
+  font-size: 2vh;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+
+}
+.cdata h2{
+  font-size: 7vh;
+  font-weight: 1000;
+  letter-spacing: 1.8px;
+   margin-top: 3vh;
+  
+}
+.cdata h3{
+  font-size: 2vh;
+  font-weight: 100;
+  margin-top: 3vh;
+  letter-spacing: 1.8px;
+
+}
+.cdata h4{
+  font-size: 2vh;
+  font-weight: 100;
+   margin-top: 3vh;
+  letter-spacing: 1.8px;
+
+}
+
+.cph{
+  width: 40vh;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+.cbtn{
+  position: absolute;
+  left: 20%;
+}
+
+.photo-wrapper {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  transform: rotate(-10deg);
+  overflow: hidden;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid white;
+  transition: transform 0.3s ease;
+  z-index: 2;
+  position: relative;
+}
+
+.photo-glow {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 0%;
+  left: 10%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(104, 188, 157, 0.2), transparent);
+  box-shadow: 0 0 25px rgba(0, 255, 163, 0.3);
+  z-index: 1;
+  filter: blur(10px);
+  transition: all 0.4s ease-in-out;
+}
+
+.hover-info {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 3;
+  color: white;
+}
+
+.hover-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.hover-info p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.photo-wrapper:hover {
+  transform: scale(1.05) rotate(1deg);
+}
+
+.photo-wrapper:hover .profile-pic {
+  transform: scale(1.1);
+}
+
+.photo-wrapper:hover .photo-glow {
+  box-shadow: 0 0 35px rgba(0, 255, 163, 0.6);
+}
+
+.photo-wrapper:hover .hover-info {
+  opacity: 1;
+}
+
+
+/* button CSS  */
+/* From Uiverse.io by vinodjangid07 */ 
+
+
+
+
+
+.Btn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* Make sure BG doesn't clip out */
+}
+
+.svgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+  z-index: 2;
+  position: relative;
+}
+
+.BG {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0077b5;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+  transform: rotate(0deg);
+  z-index: 1; /* BELOW svgContainer */
+}
+
+.Btn:hover .BG {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.Btn:hover .svgContainer {
+  background-color: rgba(190, 190, 190, 0.466);
+  border: 1px solid rgba(216, 216, 216, 0.466);
+  backdrop-filter: blur(4px);
+}
+
 
 
 

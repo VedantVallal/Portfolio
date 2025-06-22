@@ -1,0 +1,189 @@
+
+
+.about{
+  width: 100%;
+  height: 200vh;
+  
+}
+
+
+
+
+
+
+/* About Section  */
+
+
+.hov  {
+  position: absolute;
+  bottom: 15%;
+  left: 8%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 3;
+  color: white;
+  font-size: 2.5vh;
+
+
+}
+
+.hov p{
+       font-family: "Mazius"; 
+}
+.hov h3{
+  position: absolute;
+ 
+  left: 22%;
+  bottom: 100%;
+  font-size: 4vh;
+  width: 30vh;
+  /* background-color: pink; */
+}
+.photo:hover .hov {
+  opacity: 1;
+
+}
+
+.photo{
+  position: relative;
+  width: 60vh;
+  padding: 0;
+  /* background-color: red; */
+  transition: all 5s ease;
+}
+
+
+.r1{
+  width: 100%;
+  height: 200vh;
+  background-color: #a15306;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.about img{
+  width: 48vh;
+  height: 50vh;
+  border-radius: 1px;
+  margin-left: 10vh;
+  transition: all 1s ease-in-out;
+  border-radius: 50%;
+  background-color: #c2c0cb;
+
+}
+.about img:hover{
+
+}
+
+.data{
+  text-decoration: none;
+  align-items: center;
+  margin-left: 35vh;
+
+  font-size: 2vh;
+  margin-top: 20vh;
+  display: flex;
+}
+
+.txt h1{
+ font-size: 6vh;
+ /* background-color: red; */
+ margin-bottom: 4vh;
+
+}
+.txt h1 span{
+  
+  font-family: 'Mazius';
+}
+
+.txt h4{
+ font-size: 1.5vh;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: #969696;
+ font-weight: 100;
+ margin-bottom: 2vh;
+
+}
+.abouticons{
+
+  margin-top: 4vh;
+}
+
+.ic{
+  gap: 10px;
+  padding-left: 2vh;
+  cursor: pointer;
+  color: rgb(97, 97, 97);
+}
+
+.ic1{
+
+  cursor: pointer;
+  color: rgb(97, 97, 97);
+}
+
+
+.ic1:hover {
+  transform: scale(1.3);
+  color: #feffff;
+}
+.ic2:hover {
+  transform: scale(1.3);
+  color: #1da1f2;
+}
+.ic3:hover {
+  transform: scale(1.3);
+  color: #1da1f2;
+}
+
+.ic1{
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.ic2{
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.ic3{
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+  
+
+
+.color1{
+   font-size: 8vw;
+  font-family: 'Mazius';
+  background-color: linear-gradient(270deg, #ff8000, #ff0080, #0044ff);
+
+}
+.color2{
+  
+
+  font-weight: 800;
+}
+
+.txt h3{
+  background-color: rgb(201, 200, 200);
+  height: 1px;
+  width: 70vh;
+  margin-bottom: 3vh;
+  
+}
+
+.txt p{
+  transition: all 1s ease-in-out;
+  margin-top: 1vh;
+    color:#969696;
+  
+}
+
+
+

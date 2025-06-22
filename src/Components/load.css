@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy";
+  box-sizing: border-box;
+    text-decoration: none;
+ 
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./font/Gilroy-Medium.e7e7c091.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy2';
+  src: url('./font/Gilroy-SemiBold.f3ed44cd.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mazius';
+  src: url('./font/Mazius-Extraitalic.121a71a7.woff2') format('truetype');
+}
+
+
+
+
+/* Pre-Loader Start */
+
+html,body{
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; lenis change  */
+}
+
+.main{
+  width: 100%;
+}
+
+.loader{
+  width: 100%;
+  position: absolute;
+   height: 100vh;  
+  background-color: #111;
+  color: white;
+  z-index: 111;
+  
+    /*   //Change for the animation  */
+}
+
+.loader .topheading{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  text-align: center;
+  font-size: 1.9vh;
+}
+.green{
+  z-index: 111;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 0vh;
+  background-color: #14CF93;
+
+  /*   //Change for the animation  */
+}
+
+.loader h1{
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 3vw;
+  font-weight: normal;
+}
+.color{
+  font-size: 2.8vw;
+  /* font-family: 'Courier New', Courier, monospace; */
+  color: #14CF93;
+}
+
+.revel{
+  overflow: hidden;
+  /* background-color: pink; */
+}
+
+.color{
+  font-family: "Mazius";
+}
+
+
+
+/* vedant vallal */
+.loader h1{
+  
+  font-size: 8vh;
+  width : 100%;
+  /* background-color: red; */
+  position: relative;
+  transform: translate(-50%,-50%);
+}
+
+.block{
+  margin-left: 55vh;
+}
+.block span{
+  padding-left: 3vh;
+}
+
+
+
+.topheading .revel{
+  opacity: 0;
+}
+
+.name {
+  opacity: 0;
+  display: inline-block; /* Important for transform to apply */
+  transform: translateX(100px); /* or whatever direction you want to animate from */
+  /* background-color: red; */
+  font-size: 15vh;
+  
+}
+
+
+/* Pre-Loader End  */
+
+
+
+

@@ -1,0 +1,642 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy";
+  box-sizing: border-box;
+    text-decoration: none;
+ 
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./font/Gilroy-Medium.e7e7c091.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy2';
+  src: url('./font/Gilroy-SemiBold.f3ed44cd.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mazius';
+  src: url('./font/Mazius-Extraitalic.121a71a7.woff2') format('truetype');
+}
+
+
+
+
+/* Pre-Loader Start */
+
+html,body{
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; lenis change  */
+}
+
+.main{
+  width: 100%;
+}
+
+/* SKIILS AND EXPERTIES SECTION  */
+
+
+
+.skills{
+  width: 100%;
+  background-color: #000000;
+  height: 100vh;
+  position: relative;
+}
+
+.skills img{
+  position: absolute;
+  left:38.7%;
+  height: 45vh;
+  top: 11%;
+}
+
+
+
+  .bottom-blur {
+      position: absolute;
+      width: 40vh;
+      height: 40%;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+      border-radius: 10px;
+      position: absolute;
+      left:40%;
+      height: 60vh;
+      top: 3%;
+    }
+
+
+
+
+
+
+.skilldata h3{
+  position: absolute;
+  left: 47.1%;
+  color: rgb(186, 186, 186);
+  letter-spacing: 2px;
+  top: 31%;
+}
+.skilldata h1{
+  position: absolute;
+  left: 30%;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  top: 31%;
+  font-size: 10vh;
+  margin-top: 4vh;
+}
+.sau{
+    font-family: "Mazius"; 
+    /* font-size: 2.8vw; */
+  /* font-family: 'Courier New', Courier, monospace; */
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.techstack .html {
+  font-size: 33px;
+  margin: 10px;
+
+}
+
+
+
+ 
+ .tech{
+  height: 19vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  position: absolute;
+  left: 20%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+
+  .tech0{
+  height: 19vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 20%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+
+
+ 
+ .techstack h3{
+  font-size: 2vh;
+  letter-spacing: 0.3vh;
+ }
+  .js{
+    font-size: 2vh;
+    font-weight: 100;
+  }
+  .tech1{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 30%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+
+
+ 
+  .tech2{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 40%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .tech3{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+
+  .tech4{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 30%;
+  color: rgb(255, 255, 255);
+  top: 65%;
+ }
+  .tech5{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 40%;
+  color: rgb(255, 255, 255);
+  top: 65%;
+ }
+  .tech6{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 60%;
+  color: rgb(255, 255, 255);
+  top: 65%;
+ }
+
+
+   .tech7{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 60%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+  .tech8{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 70%;
+  color: rgb(255, 255, 255);
+  top: 55%;
+ }
+  .tech9{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  top: 65%;
+ }
+
+   .tech10{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  top: 65%;
+
+ }
+
+ .tech10 img{
+  position: absolute;
+  left: 20%;
+  height: 3vh;
+  border-radius: 50%;
+
+
+ }
+
+ .gsa{
+  margin-left: 2vh;
+ }
+
+
+
+ 
+   .tech11{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 40%;
+  color: rgb(255, 255, 255);
+  top: 75%;
+
+ }
+
+ .tech11 img{
+  position: absolute;
+  left: 20%;
+  height: 3vh;
+  border-radius: 50%;
+
+
+ }
+
+ .gsa{
+  margin-left: 2vh;
+ }
+
+
+
+  .tech12{
+  height: 19vh;
+  border: 3px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#383838;
+  width: 19vh;
+  height: 5vh;
+  color: #f7f5f5;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  top: 75%;
+
+ }
+
+ .tech12 img{
+  position: absolute;
+  left: 20%;
+  height: 3vh;
+  border-radius: 30%;
+
+
+ }
+
+ .gsa{
+  margin-left: 3vh;
+ }
+
+ 
+
+
+
+
+
+.animate-gradient-x {
+  animation: gradient-x 1s ease infinite;
+  background-size: 200% 200%;
+  display: inline-block; /* Required for background to animate properly on text */
+}
+
+
+
+@keyframes animateTextGradient {
+  0% {
+    background-position: 0% 50%;
+    
+  }
+  50% {
+    background-position: 100% 50%;
+    /* slight grow */
+  }
+  100% {
+    background-position: 0% 50%;
+   
+  }
+}
+
+.text-colorfull {
+   text-shadow: 0 10px 20px rgba(255, 0, 255, 0.3);   
+  font-weight: bold;
+  font-size: 5; /* adjust size as needed */
+  background: linear-gradient(270deg, #ff8000, #ff0080, #0e47e3);
+  background-size: 1000% 1000%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animateTextGradient 6s ease-in-out infinite;
+}
+
+
+
+
+.tech0:hover,
+.tech1:hover,
+.tech2:hover,
+.tech3:hover,
+.tech4:hover,
+.tech5:hover,
+.tech6:hover,
+.tech7:hover,
+.tech8:hover,
+.tech9:hover,
+.tech10:hover,
+.tech11:hover,
+.tech12:hover {
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+  transform: translateY(-10px);
+  background-color: rgb(110, 110, 113);
+  transition: 0.8s ease;
+}
+
+
+
+
+
+.tech0,
+.tech1,
+.tech2,
+.tech3,
+.tech4,
+.tech5,
+.tech6,
+.tech7,
+.tech8,
+.tech9,
+.tech10,
+.tech11,
+.tech12 {
+  
+  border-radius: 12px;
+  padding: 1rem;
+  z-index: 1;
+  background-color: transparent; /* No background */
+  border: 2px solid transparent;
+}
+
+/* Premium animated border using ::before */
+
+.tech0::before,
+.tech1::before,
+.tech2::before,
+.tech3::before,
+.tech4::before,
+.tech5::before,
+.tech6::before,
+.tech7::before,
+.tech8::before,
+.tech9::before,
+.tech10::before,
+.tech11::before,
+.tech12::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 14px;
+  padding: 2px;
+  background: linear-gradient(
+    270deg,
+    #2c2b2b,
+    #000000,
+    #f2f4f4,
+    #000000,
+    #0e0d0d
+  );
+  background-size: 600% 600%;
+  animation: borderRotate 7s linear infinite;
+  z-index: -1;
+  mask: 
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+}
+
+/* Animation for glowing movement */
+@keyframes borderRotate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+
+/* Scroll Wrapper the Below side of Skills */
+
+
+.scroll-wrapper {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+}
+
+.scroll-wrapper::before,
+.scroll-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.scroll-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, #000 0%, transparent 100%);
+}
+
+.scroll-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, #000 0%, transparent 100%);
+  
+}
+
+.scroll-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 40s linear infinite;
+  z-index: 1;
+  
+}
+
+.scroll-text {
+  white-space: nowrap;
+  color: #737373;
+  font-size: 2rem;
+  padding-right: 1rem;
+
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* Projects Section  */
+
+.projects{
+  height: 100vh;
+  background-color: pink;
+  display: none;
+}
+

@@ -195,64 +195,10 @@ const Header = () => {
 
   return (
     <div className="main">
-      {/* this is the Loader Section  */}
-      <div className="loader">
-        <div className="topheading">
-          <h5 className="revel">Web Designer</h5>
-          <h5 className="revel">Create | Inspire | Elevate</h5>
-        </div>
-        <h1 className="revel">
-          <div className="block">
-            <span className="name">Vedant</span>
-            <span className="name color">Vallal </span>
-            <span className="name">is </span>
-            <span className="name">a </span>
-          </div>
-        </h1>
 
-        {/* loading effect  */}
-        <div class="spinner"></div>
-      </div>
-      <div className="green"></div>
+
       {/* this is the Hero Section  */}
-      <div className="home">
-        <div class="nav">
-          <a href="" class="sec1 s">
-            Home
-            <span id="l1" class="line"></span>
-          </a>
-          <a href="" class="sec2 s">
-            About Me <span class="line"></span>
-          </a>
-          <a href="" class="sec3 s">
-            Projects <span class="line"></span>
-          </a>
-          <a href="" class="sec4 s">
-            Contact Me <span class="line"></span>
-          </a>
-        </div>
-        {/* this is Hero Section  */}
-        <div className="row1">
-          <h1>Creative</h1>
-          <div className="text">
-            <h5>Crafting websites that</h5>
-            <h5>Speak louder than words</h5>
-          </div>
-          <div className="text">
-            <h5>Turning pixels into </h5>
-            <h5>purposeful Beautiful design.</h5>
-          </div>
-        </div>
 
-        <div className="row2">
-          <div className="web">
-            <h2>W</h2>
-            <h2>e</h2>
-            <h2>b</h2>
-          </div>
-          <h1>Designer</h1>
-        </div>
-      </div>
 
       {/* this is ABout section  */}
       <div className="about">
